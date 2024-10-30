@@ -1,0 +1,36 @@
+aside {
+    width: 70px;
+    background-color: #fff;
+    height: 100vh;
+}
+
+aside nav div.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+aside nav ul {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside nav ul li {
+    cursor: pointer;
+}
+
+aside svg {
+    color: #9c9fa6;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+aside svg:hover {
+    color: #585a5f;
+}
