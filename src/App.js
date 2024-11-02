@@ -1,15 +1,10 @@
-import Aside from "./components/Aside";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import React from "react";
+import AppRoutes from "./Routes";
 
 function App() {
     return (
         <div className="App">
-            <Aside />
-            <div className="main-content">
-                <Header />
-                <Main />
-            </div>
+            <AppRoutes />
         </div>
     )
 }

@@ -14,11 +14,12 @@ aside nav div.nav-logo {
 }
 
 aside nav ul {
-    height: 320px;
+    height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 aside nav ul li {
@@ -33,4 +34,10 @@ aside svg {
 
 aside svg:hover {
     color: #585a5f;
+}
+
+aside nav div.nav-logo img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
