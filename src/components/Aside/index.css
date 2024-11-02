@@ -33,11 +33,16 @@ aside svg {
 }
 
 aside svg:hover {
-    color: #585a5f;
+    /* color: #585a5f; */
 }
 
 aside nav div.nav-logo img {
     border-radius: 50%;
     height: 40px;
     width: 40px;
+}
+
+.active svg {
+    color: #D3B48F;
+    font-weight: bold;
 }
