@@ -1,0 +1,52 @@
+.main-clientes {
+    width: 94%;
+    box-shadow: 1px 9px 6px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin: 38px auto;
+    border-radius: 10px;
+    min-height: 120px;
+}
+
+.main-clientes-title {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.main-clientes-title h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #343a40;
+    margin-left: 20px;
+}
+
+.main-clientes table {
+    width: 94%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.main-clientes table tr {
+    height: 40px;
+    text-align: left;
+}
+
+.main-clientes table tr.tr-data {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.main-clientes table tr.tr-data:hover {
+    background-color: #eef4fa;
+}
+
+.main-clientes table img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.main-clientes table th {
+    font-family: Ubuntu;
+    font-size: 15px;
+}

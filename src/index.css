@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #fff6ea;
-    font-family: Arial, sans-serif;
+    background-color: #D3F4F6;
+    font-family: Ubuntu, Arial, sans-serif;
     min-height: 100vh;
 }
 
@@ -38,4 +38,8 @@ a:hover {
 
 li {
     list-style: none;
+}
+
+h2 {
+    font-family: Ubuntu;
 }
